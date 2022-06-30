@@ -2,8 +2,12 @@ body {
     background-color: #181A1B;
 }
 
-h1, h2 {
+h1 {
     color: #CCCCCC;
+}
+
+h2 {
+    color: #999999;
 }
 
 .navbar ul {
