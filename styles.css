@@ -10,14 +10,13 @@ h1, h2 {
     display: flex;
     justify-content: space-evenly;
     align-items: baseline;
-    margin-top: 0;
 }
 
 li {
     list-style-type: none;
 }
 
-.navbar a {
+a {
     text-decoration: none;
     display: block;
 }
@@ -46,4 +45,39 @@ li {
     font-size: 2.75vw;
     top: 25%;
     margin-left: 5%;
+}
+
+.models {
+    display: flex;
+    justify-content: space-around;
+}
+
+.models img {
+    width: 18vw;
+    display: block;
+}
+
+.models span {  
+    display: flex;
+    justify-content: center;
+    font-size: 2vw; 
+}
+
+.models a:visited {
+    color: #CCCCCC;
+}
+
+.build {
+    display: flex;
+    justify-content: center;
+}
+.build a {
+    text-align: center;
+    width: fit-content;
+    padding: 1vw 1.5vw 1vw 1.5vw; 
+    margin: 1.5vw;
+    font-size: 1.5vw;
+    background-color: #CCCCCC;
+    color: #181A1B;
+    border-radius: 25px;
 }
