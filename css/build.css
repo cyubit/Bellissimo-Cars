@@ -1,3 +1,13 @@
+.options {
+    overflow-y: scroll;
+    height: 35vw;
+    scrollbar-color: red;
+}
+
+.options::-webkit-scrollbar {
+    display: none;
+  }
+
 .options span {
     color: white;
     background-color: #555;
@@ -43,4 +53,22 @@
 }
 .colors .c9 {
     background-color: deeppink;
+}
+
+.progress {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5vw;
+}
+
+.progress a {
+    background-color: #CCC;
+    padding: 2vw 4vw;
+    border-radius: 00.3vw;
+    font-size: 1.5vw;
+    color: black;
+}
+
+.progress a:visited {
+    color: black;
 }
