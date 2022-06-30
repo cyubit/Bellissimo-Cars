@@ -27,10 +27,12 @@
     display: flex;
     justify-content: center;
     font-size: 2vw; 
+    color: #CCCCCC;
 }
 
 .models a:visited {
     color: #CCCCCC;
+
 }
 
 .build {
