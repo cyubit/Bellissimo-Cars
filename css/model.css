@@ -24,7 +24,7 @@
 }
 
 .icons img {
-    width: fit-content;
+    width: 4vw;
     border-radius: 15px;
     display: block;
 } 
@@ -54,4 +54,59 @@ li span {
 
 .name-price h2 {
     font-size: 2vw;
+}
+
+.more-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3vw;
+}
+
+.highlights {
+    display: flex;
+    background-color: #000;
+    color: #CCC;
+    width: 40vw;
+    height: 20vh;
+    border-radius: 0.25vw;
+    text-align: center;
+    align-items: center;
+}
+
+.highlights span {
+    font-size: 1.25vw;
+}
+
+.line {
+    width: 5px;
+    height: 100px;
+    background-color: white;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-options {
+    margin-right: 10vw;
+    width: 38vw;
+}
+
+.nav-options a {
+    font-size: 1.5vw;
+    text-align: center;
+    color: #000;
+    padding: 1vw 5vw;
+    border-radius: 0.3vw;
+    margin: 0.3vw;
+}
+
+.row1 a {
+    background-color: #999;
+}
+
+.row2 a {
+    background-color: #CCC;
+    padding: 1.5vw 2vw;
 }
