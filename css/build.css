@@ -1,0 +1,46 @@
+.options span {
+    color: white;
+    background-color: #555;
+    font-size: 2vw;
+    border-radius: 0.3vw;
+}
+
+.colors {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1vw;
+}
+
+.colors span {
+    width: 85%;
+    height: 5vw;
+    margin: 0.5vw;
+}
+
+.colors .c1 {
+    background-color: whitesmoke;
+}
+.colors .c2 {
+    background-color: darkgray;
+}
+.colors .c3 {
+    background-color: black;
+}
+.colors .c4 {
+    background-color: red;
+}
+.colors .c5 {
+    background-color: blue;
+}
+.colors .c6 {
+    background-color: midnightblue;
+}
+.colors .c7 {
+    background-color: yellow;
+}
+.colors .c8 {
+    background-color: lime;
+}
+.colors .c9 {
+    background-color: deeppink;
+}
